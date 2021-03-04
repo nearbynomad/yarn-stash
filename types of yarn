@@ -1,0 +1,7 @@
+const yarnTypes = ['sheepswool', 'alpaca', 'flax'];
+
+const inMyStash = yarnTypes.map(yarn => {
+  return yarn + ' yarn is in your stash';
+})
+
+console.log(inMyStash)
